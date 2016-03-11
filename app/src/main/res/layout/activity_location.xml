@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kedark.androidtest.ui.LocationActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/button_material_light"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/view_padding_medium">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_select_location"
+            android:id="@+id/lbl_select_location"
+            android:background="@color/highlighted_text_material_dark"
+            android:padding="@dimen/view_padding_small"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/view_margin_small" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_location"
+            android:layout_below="@+id/lbl_select_location"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/view_margin_medium"
+            android:background="@color/background_floating_material_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/text_mode_of_transport"
+            android:id="@+id/textView"
+            android:padding="@dimen/view_padding_small"
+            android:background="@color/highlighted_text_material_dark"
+            android:layout_below="@+id/spinner_location"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/view_margin_medium" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_transport_info"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_margin="@dimen/view_margin_medium"
+            android:background="@color/background_floating_material_light" />
+        <!--<android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_listing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/btn_navigate" />-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Navigate"
+            android:id="@+id/btn_navigate"
+            android:background="@color/buttonBackground"
+            android:layout_alignWithParentIfMissing="false"
+            android:textColor="@color/whiteText"
+            android:padding="@dimen/view_padding_medium"
+            android:layout_marginBottom="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

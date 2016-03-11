@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F1F1F1</color>
+    <color name="colorPrimaryDark">#F05F40</color>
+    <color name="textColorPrimary">#F05F40</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+    /* old #F05F40*/
+    <color name="linkColor">#F05F40</color>
+    <color name="actionBarBackground">#F1F1F1</color>
+    <color name="buttonLink">#cf434648</color>
+    <color name="button_gray">#838481</color>
+    <color name="titleColor">#F05F40</color>
+    <color name="exampleColor">#4f4afe</color>
+    <color name="transparentColor">#16dbdfd8</color>
+    <color name="textColor">#ffffff</color>
+    <color name="editTextBackground">#E3E3E3</color>
+    <color name="buttonBackground">#F05F40</color>
+    <color name="lightText">#888</color>
+    <color name="darkText">#555</color>
+    <color name="whiteText">#ffffff</color>
+    <color name="orangeText">#F05F40</color>
+    <color name="tabsScrollColor">#8a140e</color>
+    <color name="darkBackground">#E3E3E3</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+
+</resources>
